@@ -11,7 +11,7 @@ function darkmode() {
   
     var mediaInicial = (notaP1 + notaP2)/2;
   
-    if (mediaInicial >= 6) {
+    if (mediaInicial >= 7) {
         console.log ("Sua nota foi "+ mediaInicial +"! Você está aprovado!");
         document.getElementById("resultado").innerHTML="Sua nota foi "+ mediaInicial +"! Você está aprovado!";
     }
@@ -19,7 +19,7 @@ function darkmode() {
         console.log ("Você foi reprovado! Sua média foi " + mediaInicial);
         document.getElementById("resultado").innerHTML="Você foi reprovado! Sua média foi " + mediaInicial;
     }
-    else if (mediaInicial > 3 && mediaInicial < 6){
+    else if (mediaInicial > 3 && mediaInicial < 7){
       console.log ("Você precisa fazer a prova final! Sua média foi " + mediaInicial + ". Quando fizer a PF, insira sua nota e calcule novamente!");
       document.getElementById("resultado").innerHTML="Você precisa fazer a prova final! Sua média foi " + mediaInicial + ". Quando fizer a PF, insira sua nota e calcule novamente!";
       
